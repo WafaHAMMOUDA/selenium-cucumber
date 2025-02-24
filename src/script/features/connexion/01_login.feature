@@ -1,5 +1,5 @@
 @login
-Feature: Title of your feature
+Feature: Je souhaite tester la page de login
   En tant que utilisateur je souhaite tester la page de connexion
 
   @login_valid_credential

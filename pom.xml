@@ -16,7 +16,7 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<junit.version>5.8.2</junit.version>
-		<selenium.version>4.28.0</selenium.version>
+		<selenium.version>4.29.0</selenium.version>
 		<log4jcore.version>2.17.2</log4jcore.version>
 		<log4japi.version>2.17.2</log4japi.version>
 		<cucumberjava.version>7.20.1</cucumberjava.version>

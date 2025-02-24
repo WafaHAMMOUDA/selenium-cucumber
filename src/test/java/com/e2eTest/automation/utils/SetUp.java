@@ -32,13 +32,13 @@ public class SetUp {
 		LOGGER.info("Scenario: " + scenario.getName() + "-Started -");
 		String browser = System.getProperty("browser");
 		if (browser == null) {
-			browser = "hrome";
+			browser = "chrome";
 
 		}
 		switch (browser) {
 		case "chrome":
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("[start-maximized]");
+			chromeOptions.addArguments("--start-maximized");
 			chromeOptions.addArguments("--disable-search-engine-choice-screen");
 			setDriver(new ChromeDriver(chromeOptions));
 			break;
